@@ -1,46 +1,131 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+   
+
 }
-.banner-text{
-    
+
+.banner-text {
+
     color: white;
     font-size: 65px;
     font-weight: 700;
     text-align: right;
     width: 550px;
-    margin-left: 850px; 
+    margin-left: 850px;
 
-    
-   
+
+
 }
-.banner-title{
-   padding-top: 150px;
-   padding-right: 80px;
-   margin-bottom: 10px;
+
+.banner-title {
+    padding-top: 150px;
+    padding-right: 80px;
+    margin-bottom: 10px;
 }
-.banner-description{
-   
+
+.banner-description {
+
     font-size: 16px;
     font-weight: 400;
     padding-right: 80px;
     margin-bottom: 10px;
 
-   
+
 
 }
-.primary-button{
+
+.primary-button {
 
     background-color: white;
-    padding: 10px 5px ;
+    padding: 10px 5px;
     border-radius: 5px;
     margin-right: 80px;
 
 }
-.banner{
+
+.banner {
     width: 1600px;
-   height: 808px;
-   background-image: url(../images/banner/banner3.png);
-   margin: auto;
+    height: 808px;
+    background-image: url(../images/banner/banner3.png);
+    margin: auto;
+
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+/* failure section  */
+
+.failure-section{
+
+    width: 1600px;
+    margin: auto;
+
+}
+
+.failure{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.failure-description{
+
+   padding-top: 200px;
+   padding-right: 200px;
+   
+
+}
+.iamge{
+    padding-left: 150px;
+}
+
+/* This is for plan  */
+.plan-container{
+
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.positive{
+
+    width: 1600px;
+    margin: auto;
+    /* background-image: url(../images/watch.png); */
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); <-- For make  Gradient -->
+    color: white;
+    border-radius: 10px;
+
+    
+   
+    
+
+}
+.title{
+
+    text-align: left;
+    width: 300px;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.Footer-container{
+
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+
+}
+.Footer{
+ 
+    margin-left: 20px;
+    width: 500px;
 
 }
